@@ -9,13 +9,18 @@
   height: 200px; 
   width: 100%;
   background-color: green;}
-.item2 { 
-  grid-area: menu; }
+
+  .item2 { 
+  grid-area: menu; 
+  width: 450px;
+}
+
 .item3 { 
   grid-area: main;
   height: 400px;
   width: 100%;
   background-color: darkslategray; }
+
 .item5 { 
   grid-area: footer;
   height: 300px;
@@ -26,10 +31,10 @@
   display: grid;
   grid-template-areas:
     'header header header header header header'
-    'main main main main main menu'
-    'footer footer footer footer footer footer';
-  gap: 10px;
-  background-color: #2196F3;
+    'main main main main menu menu'
+    'footer footer footer footer menu menu';
+  gap: 0px;
+  background-color: var(--cinza);
   padding: 10px;
 }
 
@@ -68,10 +73,70 @@ section p{
   color: white;
 
 }
+.caixa-menu1{
+  background-color: white;
+  width: 500px;
+  height: 60px;
+  margin: 20px;
+}
+
+.caixa-menu2{
+  background-color: white;
+  width: 500px;
+  height: 250px;
+  margin: 20px;
+}
+
+.cabecalho-caixa2{
+  width: 500px;
+  height: 60px;
+  background-color: var(--cinzae);
+}
+
+.caixa-menu3{
+  background-color: var(--cinza);
+  width: 500px;
+  height: 500px;
+  margin: 20px;
+  padding: 1px;
+}
+
+.caixa-menu3-img1{
+  width: 240px;
+  height: 240px;
+  background-color: white;
+  margin: 0px;
+}
+
+.caixa-menu3-img2{
+  width: 240px;
+  height: 240px;
+  background-color: white;
+  margin: 20px;
+  margin-left :260px;
+  margin-top: -240px;
+}
 
 
+.caixa-menu3-img3{
+  width: 240px;
+  height: 240px;
+  background-color: white;
+  margin: 0px;
+}
 
 
+.caixa-menu3-img4{
+  width: 240px;
+  height: 240px;
+  background-color: white;
+  margin: 0px;
+  margin-left :260px;
+  margin-top: -240px;
+}
 
-  
-  
+
+:root {
+  --cinza: rgb(81, 80, 80);
+  --cinzae : rgb(55, 52, 52);
+}
