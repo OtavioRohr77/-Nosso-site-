@@ -26,9 +26,9 @@
 .grid-container {
   display: grid;
   grid-template-areas:
-    'header header header header header header'
-    'main main main menu menu menu'
-    'footer footer footer footer footer footer';
+    'header header header header header header header header'
+    'main main main menu menu menu menu menu'
+    'footer footer footer footer footer footer footer footer';
   gap: 10px;
   background-color: #2196F3;
   padding: 10px;
@@ -137,4 +137,7 @@ li{
   margin-left: 3%;
   font-size: 20px;
   color: white;
+}
+.mais{
+  text-align: center;
 }
