@@ -14,8 +14,9 @@
   background-color: green;
   grid-area: menu;
   width: 450px;
+  margin: 10px;
 }
- 
+
 .item3 {
   grid-area: main;
   height: 1342px;
