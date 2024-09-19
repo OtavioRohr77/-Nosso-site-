@@ -19,7 +19,7 @@
 
 .item3 {
   grid-area: main;
-  height: 1342px;
+  height: 1142px;
   width: 100%;
   background-color: darkslategray; }
  
@@ -172,7 +172,7 @@ header p{
   float: left;
   grid-area: main;
   height: 700px;
-  width: 330px;
+  width: 356px;
   background-color: darkslategrey;
   border: 11px solid white;
   margin-left: 1px;
@@ -182,7 +182,7 @@ header p{
   float: left;
   grid-area: main;
   height: 700px;
-  width: 330px;
+  width: 356px;
   background-color: darkslategrey;
   border: 11px solid white;
   margin-left: 1px;
