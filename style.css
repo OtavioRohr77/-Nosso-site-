@@ -13,7 +13,7 @@
 .item2 {
   background-color: green;
   grid-area: menu;
-  width: 450px;
+  width: 540px;
   margin: 10px;
 }
 
@@ -154,7 +154,7 @@ header p{
   height: 400px;
   width: 98%;
   background-color: darkslategrey;
-  border: 11px solid white;
+  border: 12px solid white;
   margin-left: 1px;
 }
  
@@ -172,20 +172,18 @@ header p{
   float: left;
   grid-area: main;
   height: 700px;
-  width: 356px;
+  width: 335px;
   background-color: darkslategrey;
-  border: 11px solid white;
-  margin-left: 1px;
+  border: 10px solid white;
 }
 .section3{
   display: block;
   float: left;
   grid-area: main;
   height: 700px;
-  width: 356px;
+  width: 341.3px;
+  border: 10px solid white;
   background-color: darkslategrey;
-  border: 11px solid white;
-  margin-left: 1px;
 }
  
 .info{
